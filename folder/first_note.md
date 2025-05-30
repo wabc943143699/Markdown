@@ -5,3 +5,6 @@
 aggr的feature_buf里面有sram还没改。
 cache里应该也有还没改的代码。
 现在还需要画一下SIMD PE的图，现在它叫做ALU，还有改进版的GAT的图。
+
+### 2025.5.30 11:55
+需要跑dma_degree在vivado上,先把zngz38里面的代码copy到寝室的台式机上,然后在这个电脑上跑dma_degree
