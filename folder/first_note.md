@@ -20,3 +20,6 @@ exp latency=2 full dsp
 
 cache tag的sram宽度是144 深度7
 if cam里面信号用sram, 原来的if_cam变成了if_cam_old
+
+### 2025.5.31 11:34
+把aggr的adj bank length改小试试
