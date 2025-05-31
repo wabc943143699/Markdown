@@ -10,3 +10,13 @@ cache里应该也有还没改的代码。
 需要跑dma_degree在vivado上,先把zngz38里面的代码copy到寝室的台式机上,然后在这个电脑上跑dma_degree (发现了那个多的defines.svh是在up_crossbar文件夹里,现在删掉了)(dma_degree文件夹里有个old文件夹建议先删掉,不然vivado会引到那里的文件)
 
 现在改完了dma_degree的sram正在跑(bank_size==8192)
+
+### 17:25
+现在把agg core的浮点ip都换成vivado的浮点ip
+用到的ip:
+add latency=0/1 full_dsp
+mul latency=1/2 max_dsp
+exp latency=2 full dsp
+
+cache tag的sram宽度是144 深度7
+if cam里面信号用sram, 原来的if_cam变成了if_cam_old
