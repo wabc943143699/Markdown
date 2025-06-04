@@ -23,3 +23,6 @@ if cam里面信号用sram, 原来的if_cam变成了if_cam_old
 
 ### 2025.5.31 11:34
 把aggr的adj bank length改小试试
+
+### 2025.6.4 14:04
+if_cam改了一下
